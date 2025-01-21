@@ -17,10 +17,10 @@ const userSchema = new mongoose.Schema({
         select : false,
     },
 
-    avtar : {
+   /* avtar : {
         public_id : String,
-        url : string
-    },
+        url : string,
+    },*/
 
     posts :[{
         type : mongoose.Schema.Types.ObjectId,

@@ -4,7 +4,7 @@ exports.createPost = async (req , res) =>{
     try{
         const newPostData = {
             caption : req.body.caption,
-            image : {
+             image : {
                 public_id : "req.body.public_id",
                 url :"req.body.url",
             },
@@ -24,3 +24,4 @@ exports.createPost = async (req , res) =>{
        })
     }
 };
+
